@@ -1,9 +1,11 @@
 # CodeBook - run_analysis.r
+This codebook contains the description of each variable in the data set. The original Activity
+variable contained 6 integers. This variable was transformed so that it contains 6 levels of characters. All the measurement variables were selected based on if they contained the words "mean()" or "std()". This selection of variables was transformed by taking the mean value per subject, per activity.
 
-Subject                         30
+Subject                         2
                 The subject ID
         
-Activity                        6
+Activity                        6 levels
                 The activity the subject performed
                                 WALKING
                                 WALKING UPSTAIRS
